@@ -27,7 +27,7 @@ The architecure contains 2 Brokers running on the same machine (distinguished by
 ```
 ./bin/zookeeper-server-start.sh ./config/zookeeper.properties
 ```
-3. Make two kafka broker
+3. Make two kafka brokers
 
 Broker-0
 
