@@ -8,10 +8,10 @@ This Repo contains 3 intelliJ idea projects (maven) namely Producer, ConsumerEng
 #### Producer
 This is a producer publishing 2 topic messages namely "MathTopic" and "EnglishTopic"
 
-####ConsumerEnglish
+#### ConsumerEnglish
 This is Consumer which subscribes to "EnglishTopic" and do some dummy processing
 
-####ConsumerMath
+#### ConsumerMath
 Similarly It subscribes to "MathTopic" and do the dummy calculations
 
 ### Kafka cluster Architecture
