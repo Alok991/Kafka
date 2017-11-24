@@ -7,8 +7,10 @@ This Repo contains 3 intelliJ idea projects (maven) namely Producer, ConsumerEng
 ### Explanation
 #### Producer
 This is a producer publishing 2 topic messages namely "MathTopic" and "EnglishTopic"
+
 ####ConsumerEnglish
 This is Consumer which subscribes to "EnglishTopic" and do some dummy processing
+
 ####ConsumerMath
 Similarly It subscribes to "MathTopic" and do the dummy calculations
 
@@ -18,7 +20,7 @@ The architecure contains 2 Brokers running on the same machine (distinguished by
 
 ## Running
 
-0. Download latest Kafka framework and cd into it
+0. Download latest Kafka framework, extract and cd into it
 1. Download and make 3 separate IntelliJ idea projects
 2. Start the Zookeeper
 
@@ -39,7 +41,13 @@ Broker-1
 cp ./config/server.properties ./config/server-1.properties
 ```
 
-Now change 
+Now open this file 
+
+```
+nano ./config/server-1.properties
+```
+
+and change these 3 parameters
 
 ```
 broker.id=1
